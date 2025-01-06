@@ -119,7 +119,7 @@ background-size: cover;}
 .team-count {font-size: .9rem; font-style: italic;}
 
 .index .links-container .btn {height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;transition: .8s; }
-.index .links-btn-container {min-height: 200px; padding: 0 !important;}
+.index .links-btn-container {min-height: 150px; padding: 0 !important;}
 
 
 
