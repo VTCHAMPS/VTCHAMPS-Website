@@ -20,7 +20,7 @@ html,body{
 .no-border {border: none !important;}
 .display-4 {font-size: 2rem !important;}
 @media (min-width:960px){.display-4 {font-size: 3rem !important;}}
-
+.image-blur {filter:blur(4px);}
 
 html,
 body {height: 100%;}
