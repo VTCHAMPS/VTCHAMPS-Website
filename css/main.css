@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html,body{
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;;
+  }
+
+.bg-green {background-color: #275540;}
+.bg-black{background-color: #000000;}
+.border-light {border-color: #8E8E8E !important} 
+.container {max-width: 750px !important;}
+.btn {padding: 10px 20px; text-align:center;}
+.btn-default {color: #FFF;
+    background:#275540;}
+.btn-default:hover{color: #FFF;}
+.red-text {color: red; font-weight: bold;}
+.no-border {border: none !important;}
+.display-4 {font-size: 3rem !important;}
+
+html,
+body {height: 100%;}
+.container-max-md {max-width: 1300px; padding-left: 20px; padding-right: 20px}
+/*  Garbage Background 
+body {background-image: url('https://wallpapercave.com/wp/wp7601263.jpg'); background-repeat: no-repeat;}
+*/
+
+/*HEADER*/
+.yahoo-icon {position: absolute; right: 10px; top: 5px; }
+.yahoo-icon img {border-radius: 10px; transition: .4s ease-in-out; height:20px; width: auto;}
+.header-logo-image {width: auto; height: 70px; transition: .4s ease-in-out;}
+.header-logo-image:hover {transform: scale(1.02);}
+@media(min-width:960px){
+.yahoo-icon img {border-radius: 10px; transition: .4s ease-in-out; height:40px; width: auto;}
+.header-logo-image {width: auto; height: 160px;}}
+.yahoo-icon:hover img {transform: scale(1.1);}
+.header-links-container .btn {height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;transition: .8s;border-radius: 0;}
+.header-links-container .btn { border-right: 1px solid white;}
+
+
+
+
+
+.asterisk {opacity: .04;}
+/* INDEX */
+.index-welcome {color: #000; border-bottom: 1px solid white; display: flex; justify-content: center; align-items: center;}
+
+
+
+.team-logo-container {
+   /* flex-basis: calc(16% - 20px); */
+    margin: 10px;}
+
+.team-logo-container .name-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px; 
+    width: 115px; 
+    overflow: hidden; 
+    border-radius: 10px; 
+    border: 3px solid #666;
+    position: relative !important;
+    cursor: grab;}
+
+  .champs-column .team-logo-container .name-logo { border: 3px solid #FFF;}
+
+    @media (min-width:1000px) {
+        .team-logo-container .name-logo {
+            height: 160px; 
+            width: 160px;}}
+
+.champs-column {border-bottom: 3px solid white;}
+
+@media (min-width: 1200px){
+.champs-column {border-right: 2px solid white; border-bottom: 0 !important;}
+.losers-column {border-left: 2px solid white}
+}
+
+
+.team-logo-container img {max-width: 100%; }
+
+.team-name-circle {
+    opacity: 0; 
+    text-align: center;
+    background: rgba(0,0,0,.8);
+    color: #FFF;
+    transition: opacity .7s ease-in-out;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+flex-direction: column;}
+
+.team-logo-container .name-logo:hover .team-name-circle {opacity:1 !important}
+
+    
+
+.opacity-100 {opacity: 1 !important;}
+
+.champs-column {background-image: linear-gradient(to bottom,  rgba(0,0,0,.6) 0%,rgba(0,0,0,.3)), url("https://raw.githubusercontent.com/VTCHAMPS/VTCHAMPS/refs/heads/main/gradient-yellow-star-background_23-2151151528.png?token=GHSAT0AAAAAAC4V4Z5Y4KNZGLYS336CQTJ4Z33EA6A");
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+
+
+.losers-column {background-image: linear-gradient(to bottom,  rgba(0,0,0,.6) 0%,rgba(0,0,0,.3)), url("https://images.unsplash.com/photo-1721622248541-001da7c67fbe?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+.team-count {font-size: .9rem; font-style: italic;}
+
+.index .links-container .btn {height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;transition: .8s; }
+.index .links-btn-container {min-height: 200px; padding: 0 !important;}
+
+
+
+@media (min-width: 992px){
+.index .links-container .col-lg-2 {width: 20% !important;max-width: 20%;flex: 20%}
+.index .links-btn-container:not(:last-child) {border-right: 4px solid white;}}
+
+@media (max-width: 992px){.index .links-btn-container:first-child {border-bottom: 1px solid white;}
+.index .links-btn-container:nth-child(2),
+.index .links-btn-container:nth-child(3) {border-bottom: 1px solid white;}
+.index .links-btn-container:nth-child(2) {border-right: 1px solid white;}
+.index .links-btn-container:nth-child(4) {border-right: 1px solid white;}
+}
+
+
+
+.links-btn-container .btn:hover { background: #37785A }
+.google-frame {height: calc(100% - 210px) !important;}
+.links-btn-container {padding: 0 !important;}
+
+.links-container .btn {height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;transition: .8s;border-radius: 0;}
+
+
+.links-section {border-top: 4px solid white;}
+
+
+/*HALL OF SHAME */
+.teams-container { background-image: linear-gradient(rgba(0, 0, 0, .87), rgba(0, 0, 0, .87));}
+
+.image-container {
+    height: 80px; 
+    width: 80px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    border: 1px solid white;}
+
+.image-container img {max-width: 100%;}
+
+.team-name,
+.years {font-size: 1.1rem;font-weight: bold;}
+
+.team-name span {font-size: .8rem;
+    font-weight: normal; 
+    display: block;}
+
+@media (max-width: 768px) {.team-name span{display:block;}}
+
+/* END OF HALL OF SHAME */
+
+
+
+
+
