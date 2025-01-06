@@ -102,7 +102,7 @@ flex-direction: column;}
 
 .opacity-100 {opacity: 1 !important;}
 
-.champs-column {background-image: linear-gradient(to bottom,  rgba(0,0,0,.6) 0%,rgba(0,0,0,.3)), url("https://github.com/VTCHAMPS/VTCHAMPS-Website/blob/main/images/gradient-yellow-star-background_23-2151151528.png");
+.champs-column {background-image: linear-gradient(to bottom,  rgba(0,0,0,.6) 0%,rgba(0,0,0,.3)), url("https://raw.githubusercontent.com/VTCHAMPS/VTCHAMPS-Website/refs/heads/main/images/gradient-yellow-star-background_23-2151151528.png") !important;
 background-repeat: no-repeat;
 background-size: cover;}
 
