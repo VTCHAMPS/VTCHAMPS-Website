@@ -151,25 +151,13 @@ background-size: cover;}
 .links-section {border-top: 4px solid white; border-bottom: 4px solid white;}
 
 
-/*HALL OF SHAME */
-.teams-container { background-image: linear-gradient(rgba(0, 0, 0, .87), rgba(0, 0, 0, .87));}
+.team-logo-container:has(.current-champ) {position: relative;}
 
-.image-container {
-    height: 80px; 
-    width: 80px; 
-    overflow: hidden; 
-    border-radius: 50%; 
-    border: 1px solid white;}
-
-.image-container img {max-width: 100%;}
-
-.team-name,
-.years {font-size: 1.1rem;font-weight: bold;}
-
-.team-name span {font-size: .8rem;
-    font-weight: normal; 
-    display: block;}
-
-@media (max-width: 768px) {.team-name span{display:block;}}
-
-/* END OF HALL OF SHAME */
+.current-champ {
+    z-index: 9999;
+    top: -17px;
+    right: -42px;
+    height: 48px;
+    width: 60px;
+    transform: rotate(30deg);
+}
