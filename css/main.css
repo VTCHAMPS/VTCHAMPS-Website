@@ -142,7 +142,7 @@ background-size: cover;}
 
 
 .links-btn-container .btn:hover { background: #37785A }
-.google-frame {height: calc(100% - 210px) !important;}
+.google-frame {height: calc(100% - 210px) !important; min-height: 500px !important;}
 .links-btn-container {padding: 0 !important;}
 
 .links-container .btn {height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;transition: .8s;border-radius: 0;}
