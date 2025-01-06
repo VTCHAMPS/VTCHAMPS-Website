@@ -18,7 +18,9 @@ html,body{
 .btn-default:hover{color: #FFF;}
 .red-text {color: red; font-weight: bold;}
 .no-border {border: none !important;}
-.display-4 {font-size: 3rem !important;}
+.display-4 {font-size: 2rem !important;}
+@media (min-width:960px){.display-4 {font-size: 3rem !important;}}
+
 
 html,
 body {height: 100%;}
@@ -29,8 +31,8 @@ body {background-image: url('https://wallpapercave.com/wp/wp7601263.jpg'); backg
 
 /*HEADER*/
 .yahoo-icon {position: absolute; right: 10px; top: 5px; }
-.yahoo-icon img {border-radius: 10px; transition: .4s ease-in-out; height:20px; width: auto;}
-.header-logo-image {width: auto; height: 70px; transition: .4s ease-in-out;}
+.yahoo-icon img {border-radius: 10px; transition: .4s ease-in-out; height:30px; width: auto;}
+.header-logo-image {width: auto; height: 110px; transition: .4s ease-in-out;}
 .header-logo-image:hover {transform: scale(1.02);}
 @media(min-width:960px){
 .yahoo-icon img {border-radius: 10px; transition: .4s ease-in-out; height:40px; width: auto;}
