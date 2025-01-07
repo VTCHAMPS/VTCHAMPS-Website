@@ -161,3 +161,12 @@ background-size: cover;}
     width: 60px;
     transform: rotate(30deg);
 }
+
+
+/* SACKO*/
+.sacko-team {width: 80%;}
+.sacko-number {width: 20%;}
+.sacko-years {font-size: .8rem;}
+.fst-italic{font-style: italic;}
+.sacko-credit {font-size: .9rem; font-style: normal;} 
+.quote {max-width: 530px;}
