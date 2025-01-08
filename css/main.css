@@ -156,7 +156,7 @@ background-size: cover;}
 
 
 #fallingImage {
-    top:-600px;
+    top:-1000px;
     z-index: 9999;
     height: 48px;
     width: 60px;
