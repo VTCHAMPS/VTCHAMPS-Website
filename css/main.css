@@ -153,14 +153,18 @@ background-size: cover;}
 
 .team-logo-container:has(.current-champ) {position: relative;}
 
-.current-champ {
+
+
+#fallingImage {
+    top:-600px;
     z-index: 9999;
-    top: -17px;
-    right: -42px;
     height: 48px;
     width: 60px;
+    right: -42px; 
     transform: rotate(30deg);
+    transition: top 2s ease-in-out; 
 }
+
 
 
 /* SACKO*/

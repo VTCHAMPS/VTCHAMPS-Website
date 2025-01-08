@@ -14,16 +14,10 @@ overlays.forEach((overlay) => {
 });
 
 
-
-
-// CHANGE CHAMPION IMAGE
-//const leagueImage = document.querySelector('.header-logo-image');
-
-
-//const teamImage = document.createElement('img');
-//teamImage.src = 'https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/37444957561_80afbd.jpg'; // Replace with your new image URL
-//teamImage.alt = 'Team Image';
-//teamImage.classList.add('existingChampion');
-//
-//leagueImage.parentNode.insertBefore(teamImage, leagueImage.nextSibling);
-
+window.onload = function() {
+    console.log("Script is running");
+    const img = document.getElementById('fallingImage');
+    setTimeout(() => {
+        img.style.top = '-17px'; 
+    }, 700); 
+};
