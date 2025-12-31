@@ -19,5 +19,5 @@ window.onload = function() {
     const img = document.getElementById('fallingImage');
     setTimeout(() => {
         img.style.top = '-17px'; 
-    }, 350); 
+    }, 200); 
 };
